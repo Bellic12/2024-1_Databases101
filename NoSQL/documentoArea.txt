@@ -1,0 +1,53 @@
+{
+    "Nombre área":"Area de cultura",
+    "Correo electronico": "arecultura@unal.edu.co",
+    "Area telefono": 321531894,
+    "Curso":[
+        {
+            "Nombre curso":"salsaUN",
+            "Cupos": 14,
+            "Descripcion":"Curso de salsa basica colombiana",
+            "Horario":[{"Dia": "Lunes", "Hora inicio": "14:00", "Hora final":"16:00", "Ubicación": {"sede":"Bogotá","Edificio":"Julio Garavito","Oficina":206}},
+            {"Dia": "Lunes", "Hora inicio": "14:00", "Hora final":"16:00", "Ubicación": {"sede":"Bogotá","Edificio":"Julio Garavito","Oficina":206}}],
+            "inscripciones": [{ "Nombres": "Juan David",
+            "Apellidos": "Gonzalez Salazar", 
+            "Tipo Documento": "Cédula",
+            "Documento Identidad": 1002003532,
+            "Correo Electronico": "jgonzalezsal@unal.edu.co",
+            "Estado inscripción": "Pendiente", 
+            "Fecha Inscripción": "14/02/2024"},
+            { "Nombres": "Luisa",
+            "Apellidos": "Gomez", 
+            "Tipo Documento": "Cédula",
+            "Documento Identidad": 1003215,
+            "Correo Electronico": "lgomez@unal.edu.co",
+            "Estado inscripción": "Aprobado", 
+            "Fecha Inscripción": "18/02/2024"}
+        ],
+            "requisitos":["Ser estudiante de la Universida Nacional", "Tener un PBM superior a 3.30"]
+        },
+        {
+            "Nombre curso":"joropóUN",
+            "Cupos": 8,
+            "Descripcion":"Curso de baile tipico colombiano",
+            "Horario":[{"Dia": "Martes", "Hora inicio": "14:00", "Hora final":"16:00", "Ubicación": {"sede":"Bogotá","Edificio":"Julio Garavito","Oficina":206}},
+            {"Dia": "Jueves", "Hora inicio": "14:00", "Hora final":"16:00", "Ubicación": {"sede":"Bogotá","Edificio":"Julio Garavito","Oficina":206}}],
+            "inscripciones": [{ "Nombres": "Andres",
+            "Apellidos": "Pastran", 
+            "Tipo Documento": "Cédula",
+            "Documento Identidad": 638201273,
+            "Correo Electronico": "apastran@unal.edu.co",
+            "Estado inscripción": "Aprobado", 
+            "Fecha Inscripción": "10/02/2024"},
+            { "Nombres": "Daniela",
+            "Apellidos": "Quintero", 
+            "Tipo Documento": "Cédula",
+            "Documento Identidad": 1003212135,
+            "Correo Electronico": "dquintero@unal.edu.co",
+            "Estado inscripción": "Rechazado", 
+            "Fecha Inscripción": "12/02/2024"}
+        ],
+            "requisitos":["Ser estudiante de la Universida Nacional", "Tener un PBM superior a 3.30"]
+        }
+    ]
+}

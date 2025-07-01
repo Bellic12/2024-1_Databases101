@@ -1,0 +1,37 @@
+{
+    "_id":2,
+    "Nombres": "Hernesto",
+    "Apellidos": "Mantilla", 
+    "Tipo Documento": "Cédula",
+    "Documento Identidad": 9865321,
+    "Correo Electronico": "wordonnez@unal.edu.co",
+    "Edad": 32,
+    "Telefonos": [316342890, 315432345],
+    "Cargo": "Profesor de Salsa", 
+    "Area de bienestar": "Area de Cultura",
+    "Sueldo": 1800000,
+    "Tipo de contrado" : "Contrato temporal",
+    "Oficina": {
+        "Correo Electronico oficina" : "baileUN@unal.edu.co", 
+        "Telefono oficina":"604872123",
+        "Nombre oficina":"Oficina de baile bienestar", 
+        "Ubicación":{
+            "sede":"Bogotá",
+            "Edificio":"Julio Garavito",
+            "Oficina":302
+        }
+    },
+    "Reunión":[{
+        "Nombre reunión":"Reunión para establecer las disposiciones de las clases",
+        "Objetivo reunión":"Establecer las disposiciones de todas las clases de salsaUN",
+        "Fecha":"16/02/2024", 
+        "Modalidad":"Presencial",
+        "Relatoria":"Se establecieron las disposiciones de las clases a lo largo del semestre 2024-1"
+    }],
+    "Cursos a cargo": [{
+        "Nombre curso":"Salsa UN",
+        "Descripcion": "Curso de salsa basica colombiana",
+        "Horario":[{"Dia": "Lunes", "Hora inicio": "14:00", "Hora final":"16:00", "Ubicación": {"sede":"Bogotá","Edificio":"Julio Garavito","Oficina":206}},
+        {"Dia": "Miercoles", "Hora inicio": "14:00", "Hora final":"16:00", "Ubicación": {"sede":"Bogotá","Edificio":"Julio Garavito","Oficina":206}}]
+    }]
+}

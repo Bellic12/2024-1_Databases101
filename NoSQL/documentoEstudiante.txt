@@ -1,0 +1,42 @@
+{   
+    "_id":1,
+    "Nombres": "Juan David",
+    "Apellidos": "Gonzalez Salazar", 
+    "Tipo Documento": "Cédula",
+    "Documento Identidad": 1002003532,
+    "Correo Electronico": "jgonzalezsal@unal.edu.co",
+    "Edad": 21,
+    "Telefonos": [314879056, 310567843],
+    "Datos academicos" : {
+        "Avance": "23%",
+        "P.A.P.A": 4.5,  
+        "Pregrado": ["Ingenieria de sistemas", "Ciencias economicas"]
+    },
+    "Datos socioeconomicos" : {
+        "PAES": "NO",
+        "PEAMA" :"NO",
+        "PBM": 12
+    },
+    "Inscripcion": [{"Estado inscripción": "Pendiente", 
+    "Fecha Inscripción": "14/02/2024", "Convocatoria": {
+        "Fecha inicio convocatoria": "27/01/2024", 
+        "Fecha final convocatoria":"18/02/2024", 
+        "Tipo conocatoria": "Curso",
+        "Nombre curso":"Salsa UN",
+        "Cupos": 14,
+        "Descripcion": "Curso de salsa basica colombiana",
+        "Area":"Area de Cultura",
+        "Profesor": ["Felipe Gomez", "Hernesto Mantilla"]
+    }},{"Estado inscripción": "Aprobada", 
+        "Fecha Inscripción": "26/01/2024", "Convocatoria": {
+        "Fecha inicio convocatoria": "26/01/2024", 
+        "Fecha final convocatoria":"18/02/2024", 
+        "Tipo conocatoria": "Beneficio",
+        "Tipo de beneficio": "Monetario", 
+        "Horas de corresponsabilidad":24,
+        "Nombre beneficio":"Ayuda transporte",
+        "Cupos": 14,
+        "Descripcion": "Ayuda para transportes en transmilenio",
+        "Area":"Area de Gestión y fomento socioeconomico"
+    }}]
+}
