@@ -1,0 +1,70 @@
+group:bienestar 
+persona = {
+    PER_DocumentoIdentidad:number,  PER_TipoDocumento:string, PER_Nombre:string,PER_Apellido:string ,PER_CorreoElectronico:string,PER_Edad:number,PER_Telefono:number
+}
+
+estudiante = {PER_DocumentoIdentidad:number,EST_Avance:number,EST_PAES_PEAMA:string,EST_PAPA:number ,EST_Pregrado:string,EST_PBM:number
+}
+
+area = {ARE_IdArea:number,ARE_Nombre:string,ARE_Descripcion:string,ARE_CorreoElectronico:string,ARE_Telefono:number
+}
+
+convocatoria = {CON_IdConvocatoria:number,CON_FechaInicio:string,CON_FechaFin:string,CON_Tipo:string
+}
+
+sede = {SED_IdSede:number,SED_Nombre:string,SED_Ciudad:string
+}
+
+inscripcion = {INS_IdInscripcion:number,PER_DocumentoIdentidad:number,CON_IdConvocatoria:number,INS_Estado:string,INS_Fecha:string
+}
+
+requisito = {REQ_IdRequisito:number,REQ_Descripcion:string,REQ_Tipo:string
+}
+
+convocatoria_requisito = {CON_IdConvocatoria:number,REQ_IdRequisito:number
+}
+
+infraestructura = {INF_IdInfraestructura:number,SED_IdSede:number,INF_Nombre:string,INF_Locacion:string,INF_Capacidad:number
+}
+
+infraestructura_bienestar = {INF_IdInfraestructura:number,INFBI_Ocupacion:string,ARE_IdArea:number
+}
+
+oficina = {INF_IdInfraestructura:number,OFI_CorreoElectronico:string,OFI_Telefono:number,OFI_Nombre:string
+}
+
+empleado ={PER_DocumentoIdentidad:number,INF_IdInfraestructura:number,ARE_IdArea:number,EMP_Cargo:string,EMP_Sueldo:number,EMP_TipoContrato:string
+}
+
+reunion = {REU_IdReunion:number,REU_Objetivo:string,REU_Relatoria:string,REU_Fecha:string,REU_Modalidad:string
+}
+
+asistencia = {
+    REU_IdReunion:number,PER_DocumentoIdentidad:number
+}
+
+beneficio = {BEN_IdBeneficio:number,ARE_IdArea:number,CON_IdConvocatoria:number,BEN_Cupos:number,BEN_Descripcion:string,BEN_Inicio:string,BEN_Finalizacion:string,BEN_TipoBeneficio:string
+}
+
+beneficio_aprobado = {PER_DocumentoIdentidad:number,CON_IdConvocatoria:number,BNAP_HorasRestantes:string
+}
+
+horario = {HOR_IdHorario:number,INF_IdInfraestructura:number,HOR_HoraInicio:string,HOR_HoraFinal:string ,HOR_Fecha:string
+}
+
+evento = {EVE_IdEvento:number,ARE_IdArea:number,HOR_IdHorario:number,EVE_Asistencia:number,EVE_Nombre:string,EVE_Tipo:string
+}
+
+proyecto_pgp = {PRO_IdProyectoPGP:number,ARE_IdArea:number,HOR_IdHorario:number,CON_IdConvocatoria:number,PRO_Descripcion:string,PRO_Nombre:string,PRO_TipoProyecto:string
+}
+
+curso = {CUR_IdCurso:number,ARE_IdArea:number,CON_IdConvocatoria:number,CUR_Cupos:number,CUR_Nombre:string,CUR_Descripcion:string
+}
+
+empleado_curso = {
+PER_DocumentoIdentidad:number,CUR_IdCurso:number 
+}
+
+curso_horario = {
+ CUR_IdCurso:number,HOR_IdHorario:number 
+}

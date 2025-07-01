@@ -1,0 +1,21 @@
+﻿EVE_IdEvento;ARE_IdArea;HOR_IdHorario;EVE_Asistencia;EVE_Nombre;EVE_Tipo
+1;2;11;150;Conferencia de Tecnología;Conferencia
+2;2;12;200;Taller de Robótica;Taller
+3;4;13;100;Seminario de Literatura;Seminario
+4;2;14;250;Feria de Empleo;Feria
+5;4;15;50;Cí­rculo de Lectura;Reunión
+6;4;16;120;Exposición de Arte;Exposición
+7;4;17;180;Simposio de Biologí­a;Simposio
+8;5;18;300;Concierto de la Banda Universitaria;Concierto
+9;5;19;400;Charla Motivacional;Charla
+10;2;20;220;Competencia de Programación;Competencia
+11;2;31;60;Clase Magistral de Matemáticas;Clase
+12;2;32;90;Encuentro de Egresados;Encuentro
+13;2;33;130;Workshop de Innovación;Workshop
+14;2;34;80;Mesa Redonda de Filosofía;Mesa Redonda
+15;3;35;110;Foro de Políticas Públicas;Foro
+16;2;36;170;Presentación de Proyectos de Ingeniería;Presentación
+17;4;37;200;Festival de Cine Estudiantil;Festival
+18;4;38;140;Clínica de Música;Música
+19;2;39;210;Hackathon;Hackathon
+20;2;40;160;Simulacro de Juicio;Simulacro

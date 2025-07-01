@@ -1,0 +1,11 @@
+BEN_IdBeneficio;ARE_IdArea;CON_IdConvocatoria;BEN_cupos;BEN_Descripción;BEN_Inicio;BEN_Finalización;BEN_tipoBeneficio
+1;1;2011;100;Descuento en matrícula;2024-28-02;6/02/2024;M
+2;1;2012;101;Descuento en transporte;2024-28-02;6/02/2024;T
+3;2;2013;102;Descuento en residencia universitaria;2024-28-02;6/02/2024;M
+4;2;2014;103;Subsidio de alimentos;2024-28-02;6/02/2024;A
+5;1;2015;104;Beca para deportistas;2024-28-02;6/02/2024;M
+6;1;2016;105;Beca por investigación;2024-28-02;6/02/2024;M
+7;1;2017;106;Subsidio para prácticas profesionales;2024-28-02;6/02/2024;M
+8;1;2018;107;Beca para estudiantes de bajos recursos;2024-28-02;6/02/2024;M
+9;1;2019;108;Beca para estudios de posgrado;2024-28-02;6/02/2024;M
+10;2;2020;109;Subsidio para material tecnológico;2024-28-02;6/02/2024;M
