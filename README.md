@@ -4,7 +4,7 @@
 
 Este proyecto académico presenta el desarrollo de un sistema de base de datos para el Área de Bienestar de la Universidad Nacional de Colombia, Sede Bogotá. El sistema fue diseñado para gestionar de forma integral los servicios que brinda Bienestar Universitario a la comunidad académica, abarcando desde la administración de cursos y beneficios socioeconómicos hasta el seguimiento de programas de acompañamiento integral.
 
-**Estado del proyecto:** ⏸️ **Desarrollo pausado** - Aproximadamente 60% completado. No se continuará su desarrollo activo por parte del equipo original.
+**Estado del proyecto:** ⏸️ **Desarrollo pausado** - Aproximadamente 75% completado. No se continuará su desarrollo activo por parte del equipo original.
 
 El Área de Bienestar promueve el desarrollo integral de la comunidad universitaria, contribuyendo a la calidad de vida mediante la formación integral, la inclusión social y el fortalecimiento académico y laboral. Este sistema refleja esa complejidad organizacional, modelando las cinco subáreas principales: Actividad Física y Deportes, Salud, Acompañamiento Integral, Cultura, y Gestión y Fomento Socioeconómico.
 
