@@ -90,10 +90,6 @@ La documentación cubre todo el proceso de desarrollo: análisis del dominio, di
 
 Este material resulta útil para estudiantes o desarrolladores interesados en bases de datos relacionales complejas y sistemas de información universitarios.
 
-## 🧑‍🤝‍🧑 Colaboradores
-
-Este proyecto fue realizado por un equipo de colaboradores dentro del marco de un curso de Bases de Datos. Su contribución abarcó desde el modelado conceptual y lógico hasta la implementación avanzada en SQL y el desarrollo parcial del frontend.
-
 ## 📄 Licencia
 
 Este proyecto está disponible bajo la Licencia MIT, permitiendo su uso libre para fines educativos, comerciales o de investigación. Se requiere conservar la atribución al equipo original y mantener el texto completo de la licencia en cualquier redistribución del código.
